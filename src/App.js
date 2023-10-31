@@ -62,6 +62,7 @@ import BlogDetails from "./components/BlogDetails"
 import Pharmacy_home from "./pharmacy/Pharmacy_home"
 import Signup from "./components/Signup"
 import Pharmacy_register from "./pharmacy/Pharmacy_register"
+import Pharmacy_search from "./pharmacy/Pharmacy_search"
 import Login_email from "./components/Login_email"
 import Product_checkout from "./components/Product_checkout"
 import Doctor_login from "./doctor/Doctor_login"
@@ -87,6 +88,7 @@ const App = () => {
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/login-email" element={<Login_email />} />
         <Route exact path="/doctor/pharmacy-index" element={<Pharmacy_home />} />
+        <Route exact path="/doctor/pharmacy-search" element={<Pharmacy_search />} />
         <Route exact path="/pharmacy-register" element={<Pharmacy_register />} />
         <Route exact path="doctorList" element={<DoctorList />} />
         <Route exact path="patientList" element={<PatientList />} />
